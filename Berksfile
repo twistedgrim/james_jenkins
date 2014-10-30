@@ -1,0 +1,15 @@
+source "https://supermarket.getchef.com"
+cookbook 'jenkinsstack', git: 'https://github.com/rackspace-cookbooks/jenkinsstack'
+cookbook 'rackops_rolebook', git: 'git@github.com:rackops/rackops_rolebook.git'
+cookbook 'platformstack', git: 'git@github.com:AutomationSupport/platformstack'
+# cookbook 'stack_commons', git: 'git@github.com:rackspace-cookbooks/stack_commons.git'
+cookbook 'rackspace_iptables', git: 'git@github.com:rackspace-cookbooks/rackspace_iptables.git'
+cookbook 'rackspacecloud', git: 'git@github.com:rackspace-cookbooks/rackspacecloud.git'
+cookbook 'rackspace_cloudbackup', git: 'git@github.com:rackspace-cookbooks/rackspace_cloudbackup.git'
+cookbook 'rackspace_gluster', git: 'git@github.com:rackspace-cookbooks/rackspace_gluster.git'
+cookbook 'elkstack', git: 'git@github.com:rackspace-cookbooks/elkstack.git'
+cookbook 'kibana', '~> 1.3', git:'git@github.com:lusis/chef-kibana.git'
+cookbook 'cron', git: 'git@github.com:rackspace-cookbooks/cron.git'
+cookbook 'monit'
+cookbook 'rabbitmq'
+metadata
